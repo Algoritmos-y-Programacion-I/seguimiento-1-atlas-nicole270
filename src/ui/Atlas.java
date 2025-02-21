@@ -56,6 +56,9 @@ public class Atlas {
         noches = escaner.nextInt();
 
         System.out.println("Super! La vas a pasar genial. Te quedaras "+ noches + " noches en Bogota y este es el resumen de tu compra:");
+        System.out.println("tu nombre es" + nombre + "!");
+        System.out.println("tu edad es" + edad + "!");
+        System.out.println("tu numero de documento es " + numerodedocumento + "!");
 
         System.out.println("Tu costo de viaje y devuelta es de: "+ calcularTotalTransporte() * calcularCostoNoche(noches));
 
